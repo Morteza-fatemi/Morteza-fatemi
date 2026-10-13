@@ -14,7 +14,7 @@ Designing web platforms, operational backends, and evidence-aware AI integration
 ### [Darik AI — Agentic business-assistant architecture](https://github.com/Morteza-fatemi/darik-ai-overview)
 An engineering-oriented public overview of a Persian-first, privacy-conscious AI gateway with scoped tools, verifiable numeric answers, policy boundaries and bounded agent plans.
 
-[Architecture](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ARCHITECTURE.md) · [Security / threat model](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/SECURITY_MODEL.md) · [Engineering decisions](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ENGINEERING_DECISIONS.md) · [Offline synthetic demo](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/demo/index.html) · [Offline synthetic demo](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/demo/index.html)
+[Architecture](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ARCHITECTURE.md) · [Security / threat model](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/SECURITY_MODEL.md) · [Engineering decisions](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ENGINEERING_DECISIONS.md) · [Offline synthetic demo](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/demo/index.html)
 
 `TypeScript` `NestJS` `AI/LLM` `Data access policy` `Evaluation`
 
