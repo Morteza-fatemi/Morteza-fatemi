@@ -47,6 +47,22 @@ Technical case study on guardian, school and driver roles; scoped permissions, a
 
 The public tests are evidence for their tested behaviors only. A hosted CI pass does not guarantee hardware compatibility or production security.
 
+## Additional architecture explorations (public documentation only)
+
+These repositories now have unique technical notes, reference diagrams, risk/permission boundaries, roadmaps and successful documentation CI. **They do not publish runnable source or establish production readiness.**
+
+| Project | Public engineering focus |
+| --- | --- |
+| [Roniq AI](https://github.com/Morteza-fatemi/roniq-ai-platform) | Persian/RTL conversational UI, knowledge-edit approval and undo |
+| [Vahedha](https://github.com/Morteza-fatemi/vahedha-platform) | Laravel/Jalali date consistency and structured data workflows |
+| [AI Browser Agent](https://github.com/Morteza-fatemi/ai-browser-agent) | Permission-bounded agents, page prompt injection and user consent |
+| [Notbox](https://github.com/Morteza-fatemi/notbox) | Windows/Python notebook durability, safe saves and recovery |
+| [IVSI](https://github.com/Morteza-fatemi/ivsi-platform) | Platform architecture notes, explicitly unknown implementation details |
+| [WP Pro Votes](https://github.com/Morteza-fatemi/wp-pro-votes) | WordPress vote eligibility, authorization and duplicate protection |
+| [Chatline](https://github.com/Morteza-fatemi/chatline-platform) | Messaging delivery, membership scope and state integrity |
+
+**Repository metadata and protection:** [About/Topics plan](REPOSITORY_METADATA.md) · [main branch protection setup](BRANCH_PROTECTION.md). GitHub administrative settings require an authenticated account action; these files are plans, not proof that rules are enabled.
+
 ## Technical focus
 
 - **Backend:** Node.js, NestJS, Express, Laravel, API design and asynchronous workflows.
