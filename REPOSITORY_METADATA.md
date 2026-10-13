@@ -20,7 +20,7 @@
 ## Safe public demos
 - ShopBani (fake operational data): https://github.com/Morteza-fatemi/shopbani-platform/blob/main/demo/index.html
 - Sepand (fake child and route identifiers): https://github.com/Morteza-fatemi/sepand-platform/blob/main/demo/index.html
-- Darik (if published): link only after its synthetic demo is merged.
+- Darik (fake deterministic AI analytics): https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/demo/index.html
 
 These are **source HTML files**, not deployed GitHub Pages sites. Download and open locally. Do not claim a working live production demo.
 
