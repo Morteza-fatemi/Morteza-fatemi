@@ -32,6 +32,12 @@
 | Roniq, Vahedha, AI Browser Agent, Notbox, IVSI, WP Pro Votes, Chatline | `public-docs` (each repository) |
 | Profile README | `profile-quality` |
 
+## Configure repository About descriptions and topics
+
+An optional companion script, `tools/configure_repo_metadata.py`, prepares accurate public descriptions and topics for all 13 repositories, requires GitHub CLI authentication, preserves existing topics and verifies updates. Run `python tools/configure_repo_metadata.py` for dry-run and add `--apply` only when ready.
+
+Do not assign an invented public Homepage to demos that have not been deployed. Repository pins are configured separately in GitHub's profile UI.
+
 ## Manual fallback (GitHub UI)
 
 For each repository open **Settings → Branches → Add branch protection rule** (or **Settings → Rules → Rulesets**, depending on the UI and plan). Select `main`, enable required Pull Request and required status checks, and enter the exact context names from the table. Require up-to-date branches, reject force pushes and deletion, and apply protection to administrators. Avoid requiring one approving reviewer for a solo-maintained repo unless a reviewer is available.
