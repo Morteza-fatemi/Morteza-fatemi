@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply main branch protection with the authenticated user's GitHub CLI.
+"""Apply main branch protection across the 13 public repositories using GitHub CLI.
 
 Run: gh auth login && python tools/protect_main.py --apply
 Without --apply: read-only plan. Never requests or embeds personal tokens.
@@ -19,6 +19,14 @@ CHECKS = {
     "darik-ai-overview": ["docs-validation"],
     "shopbani-platform": ["public-case-study"],
     "sepand-platform": ["public-case-study"],
+    "roniq-ai-platform": ["public-docs"],
+    "vahedha-platform": ["public-docs"],
+    "ai-browser-agent": ["public-docs"],
+    "notbox": ["public-docs"],
+    "ivsi-platform": ["public-docs"],
+    "wp-pro-votes": ["public-docs"],
+    "chatline-platform": ["public-docs"],
+    "Morteza-fatemi": ["profile-quality"],
 }
 
 def gh_json(endpoint: str, method: str = "GET", payload: dict | None = None) -> dict:
