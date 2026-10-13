@@ -1,0 +1,22 @@
+name: Profile Quality
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  profile-quality:
+    name: profile-quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate profile links and GitHub CLI helper
+        run: |
+          python tools/check_profile.py
+          python -m py_compile tools/protect_main.py
+          python tools/protect_main.py
