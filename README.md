@@ -1,100 +1,70 @@
 <div align="center">
 
 # Seyyed Morteza Fatemi Zade
+**Full-Stack Software Engineer · Backend Architecture · Applied AI**
 
-**Full-Stack Software Engineer · Backend Systems · Applied AI**
+Designing web platforms, operational backends, and evidence-aware AI integrations.
 
-I design and build web products, scalable backend systems, and privacy-conscious AI capabilities for real-world use.
-
-Currently building **Darik**, a zero-retention learning AI gateway for e-commerce, and advancing **Shopbani**, a multi-surface commerce platform.
-
-[Featured Work](#featured-work) · [Engineering Principles](#engineering-principles) · [Current Technical Focus](#current-technical-focus) · [Contact](#contact)
+[Case studies](#selected-projects) · [Open source & checks](#public-code--automated-quality) · [Technical focus](#technical-focus) · [Contact](#contact)
 
 </div>
 
----
+## Selected projects
 
-## Featured Work
+### [Darik AI — Agentic business-assistant architecture](https://github.com/Morteza-fatemi/darik-ai-overview)
+An engineering-oriented public overview of a Persian-first, privacy-conscious AI gateway with scoped tools, verifiable numeric answers, policy boundaries and bounded agent plans.
 
-### Darik AI Engine
+[Architecture](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ARCHITECTURE.md) · [Security / threat model](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/SECURITY_MODEL.md) · [Engineering decisions](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ENGINEERING_DECISIONS.md)
 
-A zero-retention learning AI gateway for e-commerce websites. Darik turns customer questions into structured, evidence-checked responses while learning reusable patterns instead of retaining raw conversations.
+`TypeScript` `NestJS` `AI/LLM` `Data access policy` `Evaluation`
 
-**Engineering scope**
+*The repository documents design boundaries; it does not publish the private application source or attest to production maturity.*
 
-- Designed a framework-agnostic core alongside a NestJS API, with PostgreSQL/Prisma and Redis-ready infrastructure.
-- Implemented Persian normalization, intent detection, confidence scoring, data-need detection, and answer verification.
-- Built pattern-memory lifecycle controls so answers must earn trust before reuse without an LLM.
-- Added redaction-first processing and automated checks for security, privacy, and ambiguous inputs.
+### [ShopBani — E-commerce platform operations](https://github.com/Morteza-fatemi/shopbani-platform)
+Multi-surface commerce engineering: Next.js customer/admin experiences, NestJS services, persistence, background processing, asset storage, reliability and incident diagnosis.
 
-`TypeScript` `NestJS` `PostgreSQL` `Prisma` `Redis` `Docker`
+[Operational case study](https://github.com/Morteza-fatemi/shopbani-platform/blob/main/CASE_STUDY.md) · [Architecture](https://github.com/Morteza-fatemi/shopbani-platform/blob/main/ARCHITECTURE.md) · [Offline synthetic dashboard](https://github.com/Morteza-fatemi/shopbani-platform/blob/main/demo/index.html)
 
-_Private project — architecture and technical details are available on request._
+`Next.js` `NestJS` `PostgreSQL` `MongoDB` `Redis` `Linux`
 
-### Shopbani
+*The interactive demo is entirely fictional and does not connect to an operational store.*
 
-A multi-surface commerce platform with customer, administrative, and backend applications.
+### [Sepand — Multi-role school transportation workflows](https://github.com/Morteza-fatemi/sepand-platform)
+Technical case study on guardian, school and driver roles; scoped permissions, absence/attendance records, stale location data, payment transitions and reference-data reconciliation.
 
-**Engineering scope**
+[Case study](https://github.com/Morteza-fatemi/sepand-platform/blob/main/CASE_STUDY.md) · [Access and state architecture](https://github.com/Morteza-fatemi/sepand-platform/blob/main/ARCHITECTURE.md) · [Offline synthetic workflow](https://github.com/Morteza-fatemi/sepand-platform/blob/main/demo/index.html)
 
-- Developed customer-facing and administrative Next.js surfaces backed by a NestJS service layer.
-- Implemented real-time communication, background jobs, push notifications, media processing, and import/export workflows.
-- Worked across relational and document-oriented data access where each fits the workflow.
-- Added AI- and evidence-oriented product capabilities under active development.
+`Backend` `RBAC` `Realtime data` `State integrity` `Privacy`
 
-`TypeScript` `Next.js` `NestJS` `PostgreSQL` `Redis` `BullMQ`
+*No student, driver, vehicle, route or GPS data from the real system is published.*
 
-_Private project — architecture and technical details are available on request._
+## Public code & automated quality
 
-### Barbari
+| Repository | What you can inspect | CI |
+| --- | --- | --- |
+| [BOBO — offline Windows voice assistant](https://github.com/Morteza-fatemi/bobo-audio) | Real Python application; Windows API hooks; secure opt-in web remote; regression tests | [Quality](https://github.com/Morteza-fatemi/bobo-audio/actions/workflows/quality.yml) |
+| [Rapfa — public music search](https://github.com/Morteza-fatemi/rapfa-music-search) | Node.js API, safe static server, build, official embed integration and browser tests | [Quality](https://github.com/Morteza-fatemi/rapfa-music-search/actions/workflows/quality.yml) |
 
-A web platform with a Next.js client and an Express/Prisma backend for operational workflows.
+The public tests are evidence for their tested behaviors only. A hosted CI pass does not guarantee hardware compatibility or production security.
 
-**Engineering scope**
+## Technical focus
 
-- Built live application workflows with Socket.IO and Redis-backed scaling.
-- Integrated scheduled and background processing with BullMQ and cron.
-- Added object-storage workflows, QR scanning, Jalali calendar support, and payment integration.
+- **Backend:** Node.js, NestJS, Express, Laravel, API design and asynchronous workflows.
+- **Frontend:** Next.js, React, Persian RTL and responsive user interfaces.
+- **Data:** PostgreSQL, MongoDB, Redis, data correctness and reliable state transitions.
+- **Infrastructure:** Docker, Linux, application services, monitoring and CI/CD.
+- **Applied AI:** Scoped tool calling, verifiable business calculations, retrieval, privacy boundaries and evaluation.
 
-`JavaScript` `Next.js` `Express` `Prisma` `Redis` `Socket.IO`
+## Engineering principles
 
-_Private project — architecture and technical details are available on request._
-
-### BOBO
-
-An offline Windows voice assistant and password-protected Wi-Fi media remote. The public repository contains runnable application code, hardware-oriented checks, security boundaries, and a platform-independent CI hygiene check.
-
-`Python` `Windows APIs` `Vosk` `HTTP` `Audio`
-
-[Public repository](https://github.com/Morteza-fatemi/bobo-audio)
-
-## Engineering Principles
-
-I care about:
-
-- Clear architecture and explicit trade-offs.
-- Readable code, useful abstractions, and reproducible environments.
-- Privacy-aware systems with secure defaults.
-- Automated verification and measurement before performance claims.
-- Documentation that helps the next engineer operate and extend a system.
-- Ownership from product requirements to deployment and production maintenance.
-
-## Core Stack
-
-**Languages:** TypeScript, JavaScript, Python, PHP  
-**Frontend:** Next.js, React, responsive UI architecture  
-**Backend:** NestJS, Express, Laravel, REST APIs, Socket.IO  
-**Data:** PostgreSQL, Prisma, MongoDB, Redis  
-**Infrastructure:** Docker, BullMQ, GitHub Actions, Linux, object storage  
-**Applied AI:** LLM integrations, retrieval workflows, agentic systems, evidence-aware responses, and evaluation pipelines
-
-## Current Technical Focus
-
-- Production-oriented LLM applications and agentic workflows.
-- Privacy-aware AI integrations and evidence-backed response design.
-- Backend architecture, real-time systems, and distributed job processing.
-- Developer tooling and automated evaluation.
+1. Treat user inputs and AI-generated actions as untrusted until validated by server-side policy.
+2. Make claims traceable to reproducible tests, explicit data ranges and known limitations.
+3. Design for partial failures, safe retries and measurable operations.
+4. Keep commercial source code and users' sensitive information confidential.
+5. Document trade-offs for the next engineer, not just the author.
 
 ## Contact
 
-I am open to meaningful engineering work and technically ambitious product collaboration. Reach out through GitHub.
+For engineering collaboration, open a GitHub discussion/issue in a suitable public project **without sensitive details**, or reach out through the GitHub profile.
+
+*Public case studies and demos are engineering portfolio material; do not treat them as official statements by project customers or independently verified production benchmarks.*
