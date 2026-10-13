@@ -1,4 +1,4 @@
-# Enable main branch protection — 5 repositories
+# Enable main branch protection — 13 repositories
 
 **Status:** Prepared; **not automatically applied** by the GitHub connector. The connected GitHub App can modify repository files and pull requests but does not expose repository administration/ruleset mutations, even if the account itself is an administrator.
 
@@ -29,6 +29,14 @@
 | [Darik](https://github.com/Morteza-fatemi/darik-ai-overview/settings/branches) | `docs-validation` |
 | [ShopBani](https://github.com/Morteza-fatemi/shopbani-platform/settings/branches) | `public-case-study` |
 | [Sepand](https://github.com/Morteza-fatemi/sepand-platform/settings/branches) | `public-case-study` |
+| Roniq, Vahedha, AI Browser Agent, Notbox, IVSI, WP Pro Votes, Chatline | `public-docs` (each repository) |
+| Profile README | `profile-quality` |
+
+## Configure repository About descriptions and topics
+
+An optional companion script, `tools/configure_repo_metadata.py`, prepares accurate public descriptions and topics for all 13 repositories, requires GitHub CLI authentication, preserves existing topics and verifies updates. Run `python tools/configure_repo_metadata.py` for dry-run and add `--apply` only when ready.
+
+Do not assign an invented public Homepage to demos that have not been deployed. Repository pins are configured separately in GitHub's profile UI.
 
 ## Manual fallback (GitHub UI)
 

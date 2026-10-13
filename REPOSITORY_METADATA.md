@@ -1,6 +1,6 @@
-# GitHub repository metadata — copy-ready settings
+# GitHub repository metadata — thirteen repositories
 
-> This checklist documents suggested **GitHub About metadata**, which is **not stored in repository files**. It cannot be changed by editing a README. Requires a user/account with Repository Administration permissions: open the repository homepage → **About ⚙️**.
+> GitHub Topics/descriptions remain unapplied until the account owner runs `python tools/configure_repo_metadata.py --apply` using their own GitHub CLI sign-in. This checklist documents suggested **GitHub About metadata**, which is **not stored in repository files**. It cannot be changed by editing a README. Requires a user/account with Repository Administration permissions: open the repository homepage → **About ⚙️**.
 
 | Repository | Suggested short description | Suggested Topics (comma-separated) | Homepage suggestion |
 | --- | --- | --- | --- |
@@ -9,6 +9,21 @@
 | `sepand-platform` | School transport engineering case study covering RBAC, attendance and data integrity. | `transportation`, `rbac`, `system-design`, `realtime`, `case-study` | No public private-system URL |
 | `bobo-audio` | Offline Windows voice assistant with optional secured local web remote and Win32 regression checks. | `python`, `windows`, `voice-assistant`, `vosk`, `win32`, `offline` | Repository README until a public demo exists |
 | `rapfa-music-search` | Persian music search frontend and Node.js API with Chromium E2E and safe static serving. | `nodejs`, `javascript`, `persian`, `music-search`, `playwright`, `rtl` | Public UI URL only if user verifies deployment |
+
+## Additional documentation-only repository Topics
+
+| Repository | Public design focus | Topics |
+| --- | --- | --- |
+| `roniq-ai-platform` | Persian conversational UX | `conversational-ai`, `rtl`, `architecture` |
+| `vahedha-platform` | Laravel and Jalali workflows | `laravel`, `jalali`, `persian` |
+| `ai-browser-agent` | Bounded browser agent design | `browser-agent`, `ai-agent`, `security` |
+| `notbox` | Windows notebook data safety | `python`, `windows`, `notebook` |
+| `ivsi-platform` | Systems engineering references | `system-design`, `backend` |
+| `wp-pro-votes` | WordPress voting correctness | `wordpress`, `php`, `voting` |
+| `chatline-platform` | Messaging and delivery semantics | `messaging`, `realtime`, `system-design` |
+| `Morteza-fatemi` | Portfolio and case studies | `portfolio`, `full-stack`, `applied-ai` |
+
+All seven feature repositories above are documentation-only overviews. Exact descriptions/topics for all thirteen are defined in `tools/configure_repo_metadata.py`. No Homepage is set automatically, because offline HTML source files are not deployed public demos.
 
 ## Ready-to-open repository URLs
 - https://github.com/Morteza-fatemi/darik-ai-overview

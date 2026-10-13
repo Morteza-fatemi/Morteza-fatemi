@@ -18,5 +18,6 @@ jobs:
       - name: Validate profile links and GitHub CLI helper
         run: |
           python tools/check_profile.py
-          python -m py_compile tools/protect_main.py
+          python -m py_compile tools/protect_main.py tools/configure_repo_metadata.py
           python tools/protect_main.py
+          python tools/configure_repo_metadata.py
