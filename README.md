@@ -42,7 +42,7 @@ Technical case study on guardian, school and driver roles; scoped permissions, a
 
 | Repository | What you can inspect | CI |
 | --- | --- | --- |
-| [BOBO — offline Windows voice assistant](https://github.com/Morteza-fatemi/bobo-audio) | Real Python application; Windows API hooks; secure opt-in web remote; regression tests | [Quality](https://github.com/Morteza-fatemi/bobo-audio/actions/workflows/quality.yml) · [v0.1.0 source release](https://github.com/Morteza-fatemi/bobo-audio/releases/tag/v0.1.0) · [v0.1.0 source release](https://github.com/Morteza-fatemi/bobo-audio/releases/tag/v0.1.0) |
+| [BOBO — offline Windows voice assistant](https://github.com/Morteza-fatemi/bobo-audio) | Real Python application; Windows API hooks; secure opt-in web remote; regression tests | [Quality](https://github.com/Morteza-fatemi/bobo-audio/actions/workflows/quality.yml) · [v0.1.0 source release](https://github.com/Morteza-fatemi/bobo-audio/releases/tag/v0.1.0) |
 | [Rapfa — public music search](https://github.com/Morteza-fatemi/rapfa-music-search) | Node.js API, safe static server, build, official embed integration and browser tests | [Quality](https://github.com/Morteza-fatemi/rapfa-music-search/actions/workflows/quality.yml) · [v0.1.0 source release](https://github.com/Morteza-fatemi/rapfa-music-search/releases/tag/v0.1.0) · [v0.1.0 source release](https://github.com/Morteza-fatemi/rapfa-music-search/releases/tag/v0.1.0) |
 
 The public tests are evidence for their tested behaviors only. A hosted CI pass does not guarantee hardware compatibility or production security.
