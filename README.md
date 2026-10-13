@@ -14,7 +14,7 @@ Designing web platforms, operational backends, and evidence-aware AI integration
 ### [Darik AI — Agentic business-assistant architecture](https://github.com/Morteza-fatemi/darik-ai-overview)
 An engineering-oriented public overview of a Persian-first, privacy-conscious AI gateway with scoped tools, verifiable numeric answers, policy boundaries and bounded agent plans.
 
-[Architecture](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ARCHITECTURE.md) · [Security / threat model](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/SECURITY_MODEL.md) · [Engineering decisions](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ENGINEERING_DECISIONS.md)
+[Architecture](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ARCHITECTURE.md) · [Security / threat model](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/SECURITY_MODEL.md) · [Engineering decisions](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/ENGINEERING_DECISIONS.md) · [Offline synthetic demo](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/demo/index.html) · [Offline synthetic demo](https://github.com/Morteza-fatemi/darik-ai-overview/blob/main/demo/index.html)
 
 `TypeScript` `NestJS` `AI/LLM` `Data access policy` `Evaluation`
 
@@ -42,8 +42,8 @@ Technical case study on guardian, school and driver roles; scoped permissions, a
 
 | Repository | What you can inspect | CI |
 | --- | --- | --- |
-| [BOBO — offline Windows voice assistant](https://github.com/Morteza-fatemi/bobo-audio) | Real Python application; Windows API hooks; secure opt-in web remote; regression tests | [Quality](https://github.com/Morteza-fatemi/bobo-audio/actions/workflows/quality.yml) |
-| [Rapfa — public music search](https://github.com/Morteza-fatemi/rapfa-music-search) | Node.js API, safe static server, build, official embed integration and browser tests | [Quality](https://github.com/Morteza-fatemi/rapfa-music-search/actions/workflows/quality.yml) |
+| [BOBO — offline Windows voice assistant](https://github.com/Morteza-fatemi/bobo-audio) | Real Python application; Windows API hooks; secure opt-in web remote; regression tests | [Quality](https://github.com/Morteza-fatemi/bobo-audio/actions/workflows/quality.yml) · [v0.1.0 source release](https://github.com/Morteza-fatemi/bobo-audio/releases/tag/v0.1.0) · [v0.1.0 source release](https://github.com/Morteza-fatemi/bobo-audio/releases/tag/v0.1.0) |
+| [Rapfa — public music search](https://github.com/Morteza-fatemi/rapfa-music-search) | Node.js API, safe static server, build, official embed integration and browser tests | [Quality](https://github.com/Morteza-fatemi/rapfa-music-search/actions/workflows/quality.yml) · [v0.1.0 source release](https://github.com/Morteza-fatemi/rapfa-music-search/releases/tag/v0.1.0) · [v0.1.0 source release](https://github.com/Morteza-fatemi/rapfa-music-search/releases/tag/v0.1.0) |
 
 The public tests are evidence for their tested behaviors only. A hosted CI pass does not guarantee hardware compatibility or production security.
 
